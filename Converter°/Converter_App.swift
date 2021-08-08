@@ -1,9 +1,3 @@
-//
-//  Converter_App.swift
-//  Converter°
-//
-//  Created by Melvin Waberski on 08.08.21.
-//
 
 import SwiftUI
 

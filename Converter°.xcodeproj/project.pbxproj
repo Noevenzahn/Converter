@@ -11,6 +11,7 @@
 		D816953226C0089B0056584F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816953126C0089B0056584F /* ContentView.swift */; };
 		D816953426C0089C0056584F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D816953326C0089C0056584F /* Assets.xcassets */; };
 		D816953726C0089C0056584F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D816953626C0089C0056584F /* Preview Assets.xcassets */; };
+		D816953F26C00A6A0056584F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816953E26C00A6A0056584F /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D816953326C0089C0056584F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D816953626C0089C0056584F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D816953826C0089C0056584F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D816953E26C00A6A0056584F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D816952F26C0089B0056584F /* Converter_App.swift */,
 				D816953126C0089B0056584F /* ContentView.swift */,
+				D816953E26C00A6A0056584F /* ContentViewModel.swift */,
 				D816953326C0089C0056584F /* Assets.xcassets */,
 				D816953826C0089C0056584F /* Info.plist */,
 				D816953526C0089C0056584F /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				D816953226C0089B0056584F /* ContentView.swift in Sources */,
 				D816953026C0089B0056584F /* Converter_App.swift in Sources */,
+				D816953F26C00A6A0056584F /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
