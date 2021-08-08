@@ -35,7 +35,7 @@ struct ContentView: View {
                     .disableAutocorrection(true)
 
                 Spacer()
-                Button("calculate", action: {viewModel.calculate()})
+                
                 Menu {
                     Button("Celsius", action: {viewModel.unit = "Celsius"; viewModel.unitSymbol = "°F"; viewModel.calculate()})
                     Button("Fahrenheit", action: {viewModel.unit = "Fahrenheit"; viewModel.unitSymbol = "°C"; viewModel.calculate()})
